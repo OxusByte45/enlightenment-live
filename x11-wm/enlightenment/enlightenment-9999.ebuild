@@ -44,6 +44,7 @@ RDEPEND="
 	wayland? (
 		|| (
 			dev-libs/efl[systemd]
+			dev-libs/efl[elogind]
 		)
 		dev-libs/efl[drm,wayland]
 		>=dev-libs/wayland-1.3.0
