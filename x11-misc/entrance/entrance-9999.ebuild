@@ -83,7 +83,4 @@ pkg_postinst() {
 	einfo "Make sure your session files are in:"
 	einfo "  X11: /usr/share/xsessions/"
 	einfo "  Wayland: /usr/share/wayland-sessions/"
-	einfo ""
-	einfo "This fork is maintained at: https://github.com/OxusByte45/entrance"
-	einfo "Report issues or contribute improvements there."
 }
